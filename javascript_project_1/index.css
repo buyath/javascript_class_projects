@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+  }
+  .box-style {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px 0;
+    border-radius: 10px;
+
+  }
+  a{
+      margin: 10px;
+  }
+  .container button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 20px;
+    border:1.5 px solid black;
+  }
+  h1{
+    margin: 20px;
+  }
+ button:hover{
+  background-color: white;
+ }
+ .child-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ }
+ .box-style::target-text{
+  text-align: center;
+ }
+ .box-style{
+  flex-basis: 15%;
+  margin: 10px;
+}
+.link-container{
+  display: flex;
+  flex-basis: 15%;
+  margin: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
