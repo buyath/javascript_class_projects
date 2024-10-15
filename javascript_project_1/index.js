@@ -45,6 +45,6 @@ function remove_link(){
         link_count = link_count - 1;
     }
     else{
-        alert("there is no link thambi")
+        alert("There is no link ")
     }
 }
