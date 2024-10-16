@@ -20,9 +20,9 @@ body{
     border:1.5 px solid black;
 
   }
-  h1{
+  /* h1{
     margin: 20px;
-  }
+  } */
  button:hover{
   background-color: white;
  }
@@ -45,10 +45,15 @@ body{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.container h1{
+/* .container h1{
   text-align: center;
-}
+} */
 .btn_group{
   display: flex;
   justify-content: space-around;
+}
+.child_container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
